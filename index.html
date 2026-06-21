@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Southern and western boundary areas show high terrain ruggedness index in red/orange indicating steep, irregular topography, while central and eastern areas show low index in blue indicating flat, smooth terrain near Mysuru.';
+                this._div.innerHTML = 'Blue areas have high Terrain Ruggedness Index meaning steep, irregular terrain with large elevation changes and rough topography, while red areas have low TRI meaning smooth, flat terrain with minimal elevation variation.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
